@@ -4,9 +4,9 @@ ans = n
 i = 1
 while True:
     ans = int(ans/i)
-    i += 1
     cnt += 1
-    if ans < i:
+    if ans <= 1:
         break
+    i += 1
 
 print(cnt)
