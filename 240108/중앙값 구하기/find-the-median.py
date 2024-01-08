@@ -6,17 +6,17 @@ c = int(s[2])
 if a>b:
     if b>c:
         mid = b
-    else:
+    elif b<c:
         mid = c
 if b>c:
     if a>c:
         mid = a
-    else:
+    elif c>a:
         mid = c
 if c>a:
     if a>b:
         mid = a
-    else:
+    elif b>a:
         mid = b
 
 print(mid)
