@@ -6,7 +6,7 @@ while True:
     ans = int(ans/i)
     i += 1
     cnt += 1
-    if ans < 1:
+    if ans < i:
         break
 
 print(cnt)
