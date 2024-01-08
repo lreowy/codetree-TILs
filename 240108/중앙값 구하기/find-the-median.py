@@ -3,20 +3,19 @@ a = int(s[0])
 b = int(s[1])
 c = int(s[2])
 
-if a>b:
+if a>b and a>c:
     if b>c:
         mid = b
-    elif b<c:
+    else:
         mid = c
-if b>c:
+elif b>a and b>c:
     if a>c:
         mid = a
-    elif c>a:
+    else:
         mid = c
-if c>a:
+elif c>a and c>b:
     if a>b:
         mid = a
-    elif b>a:
+    else:
         mid = b
-
 print(mid)
