@@ -1,10 +1,11 @@
 s = input().split()
 a = int(s[0])
 b = int(s[1])
-i = 2
-while True: 
+i = 1
+while True:
+    i += 1
     if a%i ==0 and b%i ==0:
-        i += 1
+        continue
     else:
         break
 if i == 2:
