@@ -6,8 +6,8 @@ arr = []
 cnt = 0
 ssum =0
 while True:
-    ans = ans//b
     arr.append(ans%b)
+    ans= ans//b
     if ans <= 1:
         break
 count = [0] * 10
@@ -17,4 +17,5 @@ for elem in arr:
 
 for i in range(len(count)):
     ssum += count[i]**2
+
 print(ssum)
